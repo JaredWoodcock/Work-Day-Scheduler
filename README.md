@@ -12,3 +12,4 @@ In this challenge, I completed the code for a Work Day Scheduler.
 
 https://jaredwoodcock.github.io/Work-Day-Scheduler/
 
+![127 0 0 1_5500_index html (2)](https://github.com/JaredWoodcock/Work-Day-Scheduler/assets/144859311/de08aec7-c133-4c9a-9dc5-525ccfb9f8dc)
