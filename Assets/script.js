@@ -4,6 +4,8 @@ $(function () {
     var timeBlockID = $(this).parent().attr("id");
     var textValue = $(this).siblings("textarea").val();
     localStorage.setItem(timeBlockID, textValue);
+
+    saveNotification("Event Saved ✔️");
   });
 
   
@@ -34,5 +36,10 @@ $(function () {
   var currentDate = dayjs().format("dddd, MMMM D, YYYY");
   $("#currentDay").text(currentDate);
   
+
+  function saveNotification(message) {
+    $("#notification").text(message)
+    $("#notification").fadeIn().delay(2000).fadeOut();
+  }
 
 });
